@@ -1,0 +1,2 @@
+[WarpWatch]
+Expressions=cache[0], *min, n, foo, x, step, index, offset

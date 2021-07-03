@@ -1,0 +1,14 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Orest\source\repos\Cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Orest\source\repos\Cuda\kernel.cu" 
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:/Users/Orest/source/repos/Cuda/kernel.cu(16): warning : variable "foo" was set but never used
+  
+  kernel.cu
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:/Users/Orest/source/repos/Cuda/kernel.cu(64): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+C:/Users/Orest/source/repos/Cuda/kernel.cu(78): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:/Users/Orest/source/repos/Cuda/kernel.cu(80): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/Orest/source/repos/Cuda/kernel.cu(126): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:/Users/Orest/source/repos/Cuda/kernel.cu(144): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Cuda.vcxproj -> C:\Users\Orest\source\repos\Cuda\x64\Debug\Cuda.exe

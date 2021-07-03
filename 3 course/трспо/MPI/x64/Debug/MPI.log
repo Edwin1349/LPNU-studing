@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Orest\source\repos\MPI\Source.cpp(38,13): warning C4552: '-': result of expression not used
+C:\Users\Orest\source\repos\MPI\Source.cpp(15,16): warning C4101: 'Status': unreferenced local variable
+C:\Users\Orest\source\repos\MPI\Source.cpp(14,28): warning C4101: 'RecvRank': unreferenced local variable
+  MPI.vcxproj -> C:\Users\Orest\source\repos\MPI\x64\Debug\MPI.exe
