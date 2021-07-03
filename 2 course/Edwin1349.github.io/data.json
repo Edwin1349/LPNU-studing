@@ -1,0 +1,8 @@
+performance = [
+    {"author" : "Riyaz", "performance_name" : "Вистава 1", "time" : "16:00", "day_name" : "Неділя", "day_num" : "1", "month_name" : "Березень"},
+    {"author" : "Javed", "performance_name" : "Вистава 2", "time" : "17:00", "day_name" : "Понеділок", "day_num" : "2", "month_name" : "Березень"}, 
+    {"author" : "Arun", "performance_name" : "Вистава 3", "time" : "10:00", "day_name" : "Неділя", "day_num" : "10", "month_name" : "Квітень"},
+    {"author" : "Sunil", "performance_name" : "Вистава 4", "time" : "12:00", "day_name" : "Середа", "day_num" : "5", "month_name" : "Квітень"},
+    {"author" : "Rahul", "performance_name" : "Вистава 5", "time" : "14:00", "day_name" : "Вівторок", "day_num" : "17", "month_name" : "Квітень"},
+    {"author" : "Anita", "performance_name" : "Вистава 6", "time" : "13:00", "day_name" : "П'ятниця", "day_num" : "27", "month_name" : "Травень"}
+];

@@ -1,0 +1,144 @@
+$content_color: rgb(247, 226, 160);
+$bgcolor: rgb(238, 226, 185);
+$hover_color: rgb(233, 213, 155);
+$textcolor: rgb(100, 18, 18);
+$fontsize: 100%;
+$headersize: 100%;
+$footer_fontsize: 100%;
+
+
+html, body {
+  color: $bgcolor;
+  margin: 0;
+  //min-width: 300px;
+  width: 100vw;
+  height: 100vh;
+}
+
+div.grid_container {
+  background: $bgcolor;
+  //min-width: 300px;
+  overflow-y:auto; 
+  display: grid;
+	width: 100vw;
+  height: 100vh;
+	grid-template-rows: 5fr 5fr 80fr  10fr ;
+	grid-template-columns: auto;
+}
+
+div.homegrid_container {
+  background: $bgcolor;
+  //min-width: 300px;
+  overflow-y:auto; 
+  display: grid;
+	width: 100vw;
+  height: 100vh;
+	grid-template-rows: 5fr 5fr 75fr 5fr  10fr ;
+	grid-template-columns: auto;
+}
+
+div.header {
+  background: $bgcolor;
+  color: $textcolor;
+  margin: 0;
+  text-align: center;
+  font-size: $headersize;
+}
+
+div#nav{
+  background: $content_color;
+  border-style: double;
+  text-align: center;
+  height: auto;
+  width: auto;
+  color: $textcolor;
+  &:hover{
+    background: $hover_color;
+  }
+}
+div.nav{
+  background: $bgcolor;
+  align-content: center;
+  color: $textcolor;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 33fr 34fr 33fr;
+}
+
+div.content_wrap {
+  padding-top: 3vh;
+  padding-bottom: 1vh ;
+	background: $bgcolor;
+  color: $textcolor;
+  height: auto;
+  width: auto;
+}
+.pagination_wrap{
+  text-align: center;
+  .pagination {
+    display: inline-block;
+   
+    a {
+      color: $textcolor;
+      float: left;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+    a.active {
+      background-color: $textcolor;
+      color: $hover_color;
+    }
+    a:hover:not(.active) {background-color: $hover_color;}
+  }
+}
+
+div.footer {
+  background: $textcolor;
+  color:$bgcolor;
+  height: auto;
+  width: auto;
+}
+
+
+
+
+div.content_block{
+  display: grid;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  @media screen and (max-width:600px) {
+    grid-template-columns: 1fr;
+  }
+  @media screen and (min-width:600px) {
+    grid-template-columns: 1fr 1fr ;
+  }
+  grid-gap: 10px; 
+}
+
+div.info_block{
+  background-color: $content_color;
+  border-style: double;
+  &:hover{
+    background: $hover_color;
+  }
+}
+
+table.info{
+  width:100%;
+}
+
+td.info_right{
+  text-align: right;
+  padding-right: 10px;
+}
+td.info_left{
+  text-align: left;
+  padding-left: 10px;
+}
+a{
+  text-decoration:none;
+  color: inherit;
+}
+
+
+
